@@ -1,11 +1,11 @@
 # 0x01. ES6 Promises
 
 ## Resources
-* <Promise>
-* <JavaScript Promise: An introduction>
-* <Await>
-* <Async>
-* <Throw / Try>
+* (Promise)
+* (javaScript Promise: An introduction)
+* (Await)
+* (Async)
+* (Throw / Try)
 
 ## Learning Objectives
 * Promises (how, why, and what)
