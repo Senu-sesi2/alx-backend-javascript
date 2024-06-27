@@ -63,25 +63,25 @@ module.exports = {
 
 ### .eslintrc.js
 
-module.exports = {
+* module.exports = {
   env: {
     browser: false,
     es6: true,
     jest: true,
   },
-  extends: [
+  * extends: [
     'airbnb-base',
     'plugin:jest/all',
   ],
-  globals: {
+ *  globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
-  parserOptions: {
+  * parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['jest'],
+ *  plugins: ['jest'],
   rules: {
     'max-classes-per-file': 'off',
     'no-underscore-dangle': 'off',
@@ -93,7 +93,7 @@ module.exports = {
       'WithStatement',
     ],
   },
-  overrides:[
+  * overrides:[
     {
       files: ['*.js'],
       excludedFiles: 'babel.config.js',
@@ -103,8 +103,8 @@ module.exports = {
 
 
 ### command to be runned
-npm install
+*npm install
 
-Author: Emmanuel Senu Mensah
-E-mail: senu.e30@gmail.com
-Date: 27-06-2024
+* Author: Emmanuel Senu Mensah
+* E-mail: senu.e30@gmail.com
+* Date: 27-06-2024
