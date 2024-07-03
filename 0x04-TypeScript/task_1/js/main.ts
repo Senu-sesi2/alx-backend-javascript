@@ -31,6 +31,6 @@ interface StudentConstructor {
   (firstName: string, lastName: string): classInterface;
 }
 
-const student = new StudentClass("Paul", "jerry");
+const student = new StudentClass("Senu", "Bella");
 console.log(student.displayName())
 console.log(student.workOnHomework())
